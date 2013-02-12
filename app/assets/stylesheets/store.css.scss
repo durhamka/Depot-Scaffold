@@ -20,6 +20,16 @@
 	border-bottom: 1px dotted #77d;
 	min-height: 100px;
 
+	p, div.price_line {
+		margin-left: 100px;
+		margin-top: 0.5em;
+		margin-bottom: 0.8em;
+
+	form, div {
+		display: inline;
+		}
+	}
+
 	img {
 		width: 80px;
 		margin-right: 5px;
@@ -41,10 +51,11 @@
 		margin-top: 0.5em;
 		margin-bottom: 0.8em;
 	}
+}
 
 	.price {
 		color: #44a;
 		font-weight: bold;
 		margin-right: 3em;
 	}
-}
+	
